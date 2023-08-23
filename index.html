@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Black White Minimalist Logo.png" alt="" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Unveiling Excellence: The Portfolio <br />of <span>Sajal Bhaskar</span></h1>
+            </div>
+        </div>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <!-- ----------about------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="bg2.jpg" alt="">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Hello viewers! I'm currently pursuing my 3rd year of B.Tech in Mechanical Engineering with a
+                        specialization in Computer Science. I'm passionate about combining the principles of engineering
+                        with the power of programming to create innovative solutions.
+                        <br />
+                        I believe in the power of constant learning and growth. With a curious mind and a determination
+                        to explore the intersections of technology, art, and sports, I'm excited to embark on a journey
+                        of self-discovery and innovation.
+                    </p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>C & C++</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <h1>Maruti Suzuki | june 2022</h1>
+                            <p>Trainee</p>
+                            <span>
+                                <li>I was there for about 15 days</li> 
+                                <li>Used to know about each part of car interior, design etc</li>
+                            </span>
+                            <h1>Dayalbagh Educational Institute | May-June 2023 </h1>
+                            <p>Research Intern</p>
+                            <span>
+                                <li>Working under Prof. Ankit Sahai ( Department of Mechanical Engineering)</li> 
+                                <li>Working on a technique combining 3D scanning and printing technology to
+                                    make customizable prosthetic liners which can be fitted to each patient's
+                                    residual limb</li>
+                            </span>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BACHELOR OF TECHNOLOGY, Mechanical Engineering</span><br>Dayalbagh Educational
+                                Institute(2021-Present)</li>
+                            <li><span>INTERMEDIATE (Science)</span><br>Radhasoami Educational Institute(2019-2021)</li>
+                            <li><span>HIGH SCHOOL</span><br>Radhasoami Educational Institute(2017-2019)</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------Portfolio----------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="food.png" alt="">
+                    <div class="layer">
+
+                        <h3>Food Delivery website</h3>
+                        <p>Retail food delivery is a courier service in which a restaurant, store, or independent
+                            food-delivery company delivers food to a customer.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="gym.png" alt="">
+                    <div class="layer">
+
+                        <h3>Gym Website</h3>
+                        <p>Being physically and mentally fit is necessary to live a happy, long life. Exercise is one of
+                            the best ways to keep a person healthy.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="calculator.jpg" alt="">
+                    <div class="layer">
+
+                        <h3>Calculator</h3>
+                        <p>Online calculator for quick calculations, along with a large collection of calculators on
+                            math, finance, fitness, and more, each with in-depth information.</p>
+
+                    </div>
+                </div>
+
+            </div>
+            <a class="btn" href="#">See More</a>
+        </div>
+    </div>
+    <!-- ----------------------------contact--------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="row-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> sajalbhaskar2003@gmail.com</p>
+                    <p><i class="fa-solid fa-mobile"></i>8077754579</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/sajal_bhaskar/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sajal-bhaskar-5142a5223/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Sajalbhaskar"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="RESUME_BHASKAR.pdf" download class="btn btn-2">Download CV</a>
+                </div>
+                <div class="row-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email ID" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn-2 btn-3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="copyright">Copyright &copy; Portfolio All Right Reserved!</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
